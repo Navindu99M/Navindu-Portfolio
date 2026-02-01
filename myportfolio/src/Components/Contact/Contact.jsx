@@ -65,7 +65,7 @@ function Contact(){
                     </div>
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
-                    <lable>Yoyr Name</lable>
+                    <label>Your Name</label>
                     <input type='text' placeholder='Enter your name' name='name'/>
                     <label>Your Email</label>
                     <input type='email' placeholder='Enter your email' name='email'/>

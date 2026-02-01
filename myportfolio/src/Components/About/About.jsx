@@ -2,7 +2,7 @@ import React from "react";
 import './About.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 //import profile_img from '../../assets/Navinduimage.jpg';
-import profile_img from '../../assets/hh.png';
+import profile_img from '../../assets/hh1.png';
 
 function About(){
     return(
