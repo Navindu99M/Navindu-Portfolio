@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
@@ -8,4 +8,52 @@ body{
     background: #161513;
     color: white;
     font-family: 'outfit';
+} */
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;   /* better than fixed height */
+    background: #161513;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.6;
+    padding: 16px;       /* adds breathing space on mobile */
+}
+
+/* Default (desktop first) */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
